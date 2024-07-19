@@ -5,10 +5,22 @@
     "categories": ["all"],
     "custom": "true"
   },
+   {
+    "name": "! Interstellar FAQ/Docs",
+    "image": "/assets/media/icons/help_center_googlefonts.png",
+    "link": "https://docs.gointerstellar.app",
+    "categories": ["all"]
+  },
   {
     "name": "! [NEW] Request A Game",
     "link": "https://forms.gle/vwdHN3iPz5cLaHaMA",
     "image": "/assets/media/icons/request.webp",
+    "categories": ["all"]
+  },
+  {
+    "name": "Fancade",
+    "link": "https://play.fancade.com",
+    "image": "/assets/media/icon/fancade.jpg",
     "categories": ["all"]
   },
   {
@@ -17,6 +29,12 @@
     "image": "/assets/media/icons/amazon-luna.webp",
     "categories": ["all"],
     "blank": "true"
+  },
+  {
+    "name": "Gartic Phone",
+    "link": "https://garticphone.com",
+    "image": "/assets/media/icons/garticphone.webp",
+    "categories": ["all"]
   },
   {
     "name": "Newgrounds",
@@ -35,7 +53,14 @@
     "link": "https://steampowered.com/",
     "image": "/assets/media/icons/steam.webp",
     "categories": ["all"],
-    "say": "Steam can't actually be added because it's an app, not a website. This only lets you browse the Steam website, you can't actually play any games unless you use Geforce Now."
+    "say": "Steam can't actually be added because it's an app, not a website. This only lets you browse the Steam website, you can't actually play any games unless you use Geforce Now.",
+    "partial": true
+  },
+  {
+    "name": "Swordbattle.io",
+    "link": "https://swordbattle.io/",
+    "image": "/assets/media/icons/swordbattle.webp",
+    "categories": ["all", "2d"]
   },
   {
     "name": "Stabfish.io",
@@ -539,9 +564,10 @@
   },
   {
     "name": "Duck Life 4",
-    "link": "https://www.hoodamath.com/mobile/games/duck-life-4/game.html",
-    "image": "/assets/media/icons/ducklife.webp",
-    "categories": ["all"]
+    "link": "/e/ducklife4/index.html",
+    "image": "/assets/media/icons/dl4.webp",
+    "categories": ["all", "local"],
+    "load": true
   },
   {
     "name": "Papa's Freezeria",
@@ -695,7 +721,7 @@
   },
   {
     "name": "1",
-    "link": "/e/1/index.html",
+    "link": "/e/1/1/index.html",
     "image": "/assets/media/icons/1.webp",
     "categories": ["all", "local"]
   },
@@ -851,7 +877,7 @@
   },
   {
     "name": "Cluster Rush",
-    "link": "/e/Cluster-Rush/index.html",
+    "link": "/e/2/Cluster-Rush/index.html",
     "image": "/assets/media/icons/cluster-rush.webp",
     "categories": ["all", "local"]
   },
@@ -881,7 +907,7 @@
   },
   {
     "name": "Doge Miner",
-    "link": "/e/DogeMiner/index.html",
+    "link": "/e/1/DogeMiner/index.html",
     "image": "/assets/media/icons/doge-miner-1.webp",
     "categories": ["all", "local"]
   },
@@ -1025,9 +1051,9 @@
   },
   {
     "name": "Idle Breakout",
-    "link": "https://interstellarnetwork.github.io/Interstellar-Assets/play/idle-breakout/index.html",
+    "link": "/e/1/idle-breakout/index.html",
     "image": "/assets/media/icons/idlebreakout.webp",
-    "categories": ["all"]
+    "categories": ["all", "local"]
   },
   {
     "name": "Isleward",
@@ -1091,13 +1117,13 @@
   },
   {
     "name": "Monkey Mart",
-    "link": "/e/monkey-mart/index.html",
+    "link": "/e/2/monkey-mart/index.html",
     "image": "/assets/media/icons/mm.webp",
     "categories": ["all", "local"]
   },
   {
     "name": "MooMoo.io",
-    "link": "https:/moomoo.io",
+    "link": "https://moomoo.io",
     "image": "/assets/media/icons/moo.webp",
     "categories": ["all"]
   },
@@ -1108,7 +1134,7 @@
     "categories": ["all"]
   },
   {
-    "name": "Mr.Mine",
+    "name": "Mr. Mine",
     "link": "https://www.coolmathgames.com/0-mr-mine/play",
     "image": "/assets/media/icons/mrmine.webp",
     "categories": ["all"]
@@ -1141,12 +1167,6 @@
     "name": "Saul Run",
     "link": "https://complex-ify.itch.io/saul-goodman",
     "image": "/assets/media/icons/saulrun.webp",
-    "categories": ["all"]
-  },
-  {
-    "name": "NG Space Company",
-    "link": "https://interstellarnetwork.github.io/interstellar-assets/play/ng-space-company/frontend/dist/index.html",
-    "image": "/assets/media/icons/ng.webp",
     "categories": ["all"]
   },
   {
@@ -1471,9 +1491,7 @@
     "name": "Taming.io",
     "link": "https://taming.io/",
     "image": "/assets/media/icons/tamingio.webp",
-    "categories": ["all"],
-    "error": "true",
-    "say": "Taming.io is currently broken on the proxy and will crash Interstellar when attempted to load."
+    "categories": ["all"]
   },
   {
     "name": "Temple of Boom",
@@ -1531,7 +1549,7 @@
   },
   {
     "name": "Retro Bowl",
-    "link": "/e/retro/index.html",
+    "link": "/e/2/retro/index.html",
     "image": "/assets/media/icons/retro.webp",
     "categories": ["all,", "sports", "local"]
   },
@@ -1741,13 +1759,13 @@
   },
   {
     "name": "Minecraft 1.5.2 (Eaglercraft)",
-    "link": "/e/ec-15/index.html",
+    "link": "/e/1/ec-15/index.html",
     "image": "/assets/media/icons/mc.webp",
     "categories": ["all", "2P", "emu", "local"]
   },
   {
     "name": "Minecraft 1.8 (Eaglercraft)",
-    "link": "/e/ec-18/index.html",
+    "link": "/e/1/ec-18/index.html",
     "image": "/assets/media/icons/mc.webp",
     "categories": ["all", "2P", "emu", "local"]
   },
@@ -1766,43 +1784,43 @@
   },
   {
     "name": "2048",
-    "link": "/e/2048/index.html",
+    "link": "/e/1/2048/index.html",
     "image": "/assets/media/icons/2048.webp",
     "categories": ["all", "local"]
   },
   {
     "name": "2048 Multitasking",
-    "link": "/e/2048-multitask/index.html",
+    "link": "/e/1/2048-multitask/index.html",
     "image": "/assets/media/icons/2048.webp",
     "categories": ["all", "local"]
   },
   {
     "name": "Vex 7",
-    "link": "/e/vex7/index.html",
+    "link": "/e/1/vex7/index.html",
     "image": "/assets/media/icons/vex7.webp",
     "categories": ["all", "local"]
   },
   {
     "name": "Vex 6",
-    "link": "/e/vex6/index.html",
+    "link": "/e/1/vex6/index.html",
     "image": "/assets/media/icons/vex6.webp",
     "categories": ["all", "local"]
   },
   {
     "name": "Vex 5",
-    "link": "/e/vex5/index.html",
+    "link": "/e/1/vex5/index.html",
     "image": "/assets/media/icons/vex5.webp",
     "categories": ["all", "local"]
   },
   {
     "name": "Vex 3",
-    "link": "/e/vex3/index.html",
+    "link": "/e/1/vex3/index.html",
     "image": "/assets/media/icons/vex3.webp",
     "categories": ["all", "local"]
   },
   {
     "name": "Vex 4",
-    "link": "/e/vex4/index.html",
+    "link": "/e/1/vex4/index.html",
     "image": "/assets/media/icons/vex4.webp",
     "categories": ["all", "local"]
   },
@@ -1849,9 +1867,80 @@
     "categories": ["all"]
   },
   {
+    "name": "Five Nights at Winston's",
+    "link": "https://g.deev.is/fnaw/",
+    "image": "/assets/media/icons/fnaw.webp",
+    "categories": ["all", "game"]
+  },
+  {
     "name": "Goomy Clicker 2",
     "link": "https://idle-js-games.github.io/goomyClicker2/",
     "image": "/assets/media/icons/gc2.webp",
+    "categories": ["all"]
+  },
+  {
+    "name": "Space Company",
+    "link": "/e/1/space-company/index.html",
+    "image": "/assets/media/icons/sc.png",
+    "categories": ["all", "local"]
+  },
+  {
+    "name": "Mario Kart DS",
+    "link": "https://seraph.reveriestudios.online/games/mariokartds/index.html",
+    "image": "/assets/media/icons/mariokartds.jpg",
+    "categories": ["all", "emu"]
+  },
+  {
+    "name": "Cooking Mama",
+    "link": "https://seraph.reveriestudios.online/games/cookingmama/index.html",
+    "image": "/assets/media/icons/cookingmama.jpg",
+    "categories": ["all", "emu"]
+  },
+  {
+    "name": "Wordle",
+    "link": "https://www.nytimes.com/games/wordle/index.html",
+    "image": "/assets/media/icons/w.webp",
+    "categories": ["all"]
+  },
+  {
+    "name": "Wordle Unlimited",
+    "link": "https://wordleunlimited.org/",
+    "image": "/assets/media/icons/w.webp",
+    "categories": ["all"]
+  },
+  {
+    "name": "Wordly",
+    "link": "https://wordly.org/",
+    "image": "/assets/media/icons/w.webp",
+    "categories": ["all"]
+  },
+  {
+    "name": "Connections",
+    "link": "https://www.nytimes.com/games/connections",
+    "image": "/assets/media/icons/cn.png",
+    "categories": ["all"]
+  },
+  {
+    "name": "Connections Unlimited",
+    "link": "https://1games.io/game/connections-game/",
+    "image": "/assets/media/icons/cn.png",
+    "categories": ["all"]
+  },
+  {
+    "name": "Globle",
+    "link": "https://globle.org/?",
+    "image": "/assets/media/icons/cn.png",
+    "categories": ["all"]
+  },
+  {
+    "name": "Particle Clicker",
+    "link": "/e/1/particle-clicker/index.html",
+    "image": "/assets/media/icons/pc.png",
+    "categories": ["all,", "local"]
+  },
+  {
+    "name": "ShipCraft.io",
+    "link": "https://shipcraft.io/",
     "categories": ["all"]
   }
 ]
